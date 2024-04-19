@@ -1,14 +1,25 @@
 {
   "format": "page",
   "id": "about_page",
+  "label": "About page",
+  "repeatable": false,
+  "status": true,
   "json": {
     "Main": {
+      "about_image": {
+        "type": "Image",
+        "config": {
+          "label": "about image",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
       "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
         "config": {
           "choices": {}
-        },
-        "fieldset": "Slice Zone",
-        "type": "Slices"
+        }
       }
     },
     "SEO & Metadata": {
@@ -38,8 +49,5 @@
         "type": "Text"
       }
     }
-  },
-  "label": "About page",
-  "repeatable": false,
-  "status": true
+  }
 }

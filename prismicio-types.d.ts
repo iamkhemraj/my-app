@@ -11,6 +11,17 @@ type AboutPageDocumentDataSlicesSlice = never;
  */
 interface AboutPageDocumentData {
   /**
+   * about image field in *About page*
+   *
+   * - **Field Type**: Image
+   * - **Placeholder**: *None*
+   * - **API ID Path**: about_page.about_image
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#image
+   */
+  about_image: prismic.ImageField<never>;
+
+  /**
    * Slice Zone field in *About page*
    *
    * - **Field Type**: Slice Zone
