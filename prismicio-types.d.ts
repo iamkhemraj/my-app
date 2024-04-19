@@ -11,6 +11,17 @@ type HomePageDocumentDataSlicesSlice = never;
  */
 interface HomePageDocumentData {
   /**
+   * Rich text field in *home page*
+   *
+   * - **Field Type**: Rich Text
+   * - **Placeholder**: This is a richtext content
+   * - **API ID Path**: home_page.rich_text
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#rich-text-title
+   */
+  rich_text: prismic.RichTextField;
+
+  /**
    * Slice Zone field in *home page*
    *
    * - **Field Type**: Slice Zone

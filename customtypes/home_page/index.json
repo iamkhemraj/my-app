@@ -1,14 +1,26 @@
 {
   "format": "page",
   "id": "home_page",
+  "label": "home page",
+  "repeatable": false,
+  "status": true,
   "json": {
     "Main": {
+      "rich_text": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Rich text",
+          "placeholder": "This is a richtext content",
+          "allowTargetBlank": true,
+          "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+        }
+      },
       "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
         "config": {
           "choices": {}
-        },
-        "fieldset": "Slice Zone",
-        "type": "Slices"
+        }
       }
     },
     "SEO & Metadata": {
@@ -38,8 +50,5 @@
         "type": "Text"
       }
     }
-  },
-  "label": "home page",
-  "repeatable": false,
-  "status": true
+  }
 }
